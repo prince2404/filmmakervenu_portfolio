@@ -1,0 +1,35 @@
+<%- include("../partials/header.ejs") %>
+<div class="documentary-single">
+    <div class="container-documentary-single">
+        <div class="documentary-content">
+            <h1>Commercial Title 1</h1>
+            <div class="documentary-video">
+                <video controls>
+                    <source src="/images/docu-film-video.mp4" type="video/mp4">
+                    <!-- Your browser does not support the video tag. -->
+                </video>
+            </div>
+            <div class="documentary-info">
+                <p class="documentary-description">
+                    Detailed description of Documentary 1. This section can include information about the making of the documentary,
+                    its subject matter, and any relevant background information.
+                </p>
+                <div class="documentary-details">
+                    <p><strong>Director:</strong> [Director Name]</p>
+                    <p><strong>Year:</strong> [Year]</p>
+                    <p><strong>Duration:</strong> [Duration]</p>
+                </div>
+            </div>
+            <div class="screenshots">
+                <h2>Screenshots</h2>
+                <div class="screenshot-grid">
+                    <img src="/images/docu-film-1.png" alt="Screenshot 1">
+                    <img src="/images/docu-film-2.png" alt="Screenshot 2">
+                    <img src="/images/docu-film-3.png" alt="Screenshot 3">
+                    <img src="/images/docu-film-4.png" alt="Screenshot 4">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<%- include("../partials/footer.ejs") %>

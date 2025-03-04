@@ -1,0 +1,46 @@
+<%- include("partials/header.ejs") %>
+
+<div class="video-container">
+    <video id="preview-video" autoplay loop muted plays-inline class="background-video">
+        <source src="/images/Shooting trailer.mp4" type="video/mp4">
+
+    </video>
+    <div id="text-overlay-1" class="video-text-overlay">CINEMATOGRAPHY SHOWREEL</div>
+
+    <video id="preview-video-2" autoplay loop muted plays-inline class="background-video">
+        <source src="/images/Editing trailer.mp4" type="video/mp4">
+    </video>
+    <div id="text-overlay-2" class="video-text-overlay">EDITING SHOWREEL</div>
+    
+    <button id="play-full-video"><i class="fa-solid fa-play"></i> watch full video</button>
+    <div class="slide-arrows">
+        <button class="arrow left-arrow" style="display: none;"><i class="fas fa-chevron-left"></i></button>
+        <button class="arrow right-arrow"><i class="fas fa-chevron-right"></i></button>
+    </div>
+
+</div>
+
+<div id="video-modal" class="modal">
+    <span class="close-btn">&times;</span>
+    <div class="modal-content">
+        <div id="full-video-container" class="responsive-video-container">
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/FrnWrqN2mOo?si=g4UhOxKk7VF2yKsW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>  
+    </div>
+</div>
+
+<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/wt0haVnorBo?si=IXwwbdg2aqRZnzs_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
+
+
+<!-- <div class="content">
+    <p class="content-1">I'M A</p>
+    <p class="content-2"><span class="auto-text"></span></p>
+    
+</div> -->
+
+
+
+</div>
+</div>
+
+<%- include("partials/footer.ejs") %>
