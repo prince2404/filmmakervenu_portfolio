@@ -422,9 +422,9 @@ header{
 .modal-content {
     position: relative;
     margin: 2% auto;
-    width: 85%;
+    width: 75%;
     max-width: 1200px;
-    height: 90vh;
+    height: 88vh;
     background-color:#fff;
     /* padding: 20px; */
     /* border-radius: 8px; */
@@ -439,9 +439,14 @@ header{
 
 @media screen and (max-width: 768px) {
     .modal-content {
-        width: 95%;
-        height: 40vh;
+        width: 75%;
+        height: 35vh;
         margin: 30% auto;
+    }
+
+    .video-container {
+        height: 80vh;
+        max-height: none;
     }
     
     .modal-content .responsive-video-container {
@@ -1059,6 +1064,10 @@ nav .resp{
     }
 
     .sub-head .fa-bars{
+        margin-top: -10px;
+    }
+
+    .sub-head #sidemenu .fa-xmark{
         margin-top: -10px;
     }
 
