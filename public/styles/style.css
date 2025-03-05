@@ -426,7 +426,7 @@ header{
 .modal-content {
     position: relative;
     margin: 2% auto;
-    width: 75%;
+    width: 78%;
     max-width: 1200px;
     height: 88vh;
     background-color:#fff;
@@ -443,9 +443,11 @@ header{
 
 @media screen and (max-width: 768px) {
     .modal-content {
-        width: 80%;
-        height: 35vh;
-        margin: 30% auto;
+        width: 90%;
+        height: 32vh;
+        margin: 25vh auto;
+        background-color:#fff;
+        overflow: hidden;
     }
 
     .video-container {
@@ -1050,8 +1052,8 @@ nav .resp{
         background: rgb(237, 237, 237);
         position: fixed;
         top: 0;
-        left: -130px;
-        width: 130px;
+        left: -150px;
+        width: 150px;
         height: 100vh;
         padding-top: 50px;
         z-index: 2;
@@ -1060,6 +1062,10 @@ nav .resp{
     nav .sub-head ul li{
         display: block;
         margin: 20px;
+    }
+
+    nav .sub-head ul li a{
+        font-size: 15px;
     }
 
     .resp{

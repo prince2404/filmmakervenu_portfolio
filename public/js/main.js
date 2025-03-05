@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function () {
         document.body.style.overflow = "hidden";
     }
     function closemenu(){
-        sidemenu.style.left = "-130px";
+        sidemenu.style.left = "-150px";
         document.body.style.overflow = "auto";
     }
 
