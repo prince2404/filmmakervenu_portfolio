@@ -437,6 +437,18 @@ header{
     object-fit: cover;
 }
 
+@media screen and (max-width: 768px) {
+    .modal-content {
+        width: 95%;
+        height: 40vh;
+        margin: 30% auto;
+    }
+    
+    .modal-content .responsive-video-container {
+        height: 100%;
+    }
+}
+
 
 
 .close-btn {
@@ -1017,7 +1029,7 @@ nav .resp{
     }
     .name h1 {
         font-size: 24px;
-        margin-top: -30px;
+        margin-top: -40px;
     }
 
     nav .resp{
@@ -1043,6 +1055,11 @@ nav .resp{
 
     .resp{
         cursor: pointer;
+        padding: 10px;
+    }
+
+    .sub-head .fa-bars{
+        margin-top: -10px;
     }
 
     nav .sub-head ul .resp{
@@ -1053,10 +1070,10 @@ nav .resp{
     }
 
     .head ul{
-        margin-left: 170px;
+        margin-left: 100px;
     }
     .head{
-        margin-bottom: -40px;
+        margin-bottom: -25px;
     }
     
 
